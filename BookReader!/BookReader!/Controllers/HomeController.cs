@@ -15,16 +15,26 @@ namespace BookReader_.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "BookReader! is application to register your favorite Books";
+            
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Contact US";
 
             return View();
         }
+
+        public ActionResult Login()
+        {
+            ViewBag.Message = "Login";
+
+
+            return View();
+        }
+
     }
 }
